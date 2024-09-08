@@ -22,7 +22,7 @@ export default function Example() {
                 htmlFor="input"
                 className="block text-sm font-medium leading-6 text-gray-900"
               >
-                Name*
+                Name
               </label>
               <div className="mt-2">
                 <input
@@ -31,6 +31,7 @@ export default function Example() {
                   type="input"
                   required
                   autoComplete="input"
+                  placeholder="Enter Name"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -40,7 +41,7 @@ export default function Example() {
                 htmlFor="input"
                 className="block text-sm font-medium leading-6 text-gray-900"
               >
-                SurName*
+                SurName
               </label>
               <div className="mt-2">
                 <input
@@ -49,6 +50,7 @@ export default function Example() {
                   type="input"
                   required
                   autoComplete="input"
+                  placeholder="Enter Surname"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -58,7 +60,7 @@ export default function Example() {
                 htmlFor="input"
                 className="block text-sm font-medium leading-6 text-gray-900"
               >
-                Phone Number*
+                Phone Number
               </label>
               <div className="mt-2">
                 <input
@@ -67,6 +69,7 @@ export default function Example() {
                   type="input"
                   required
                   autoComplete="input"
+                  placeholder="Enter Phone Number"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -77,7 +80,7 @@ export default function Example() {
                 htmlFor="email"
                 className="block text-sm font-medium leading-6 text-gray-900"
               >
-                Email address*
+                Email address
               </label>
               <div className="mt-2">
                 <input
@@ -86,6 +89,7 @@ export default function Example() {
                   type="email"
                   required
                   autoComplete="email"
+                  placeholder="name@gmail.com"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -95,7 +99,7 @@ export default function Example() {
                 htmlFor="username"
                 className="block text-sm font-medium leading-6 text-gray-900"
               >
-                Username*
+                Username
               </label>
               <div className="mt-2">
                 <input
@@ -104,6 +108,7 @@ export default function Example() {
                   type="username"
                   required
                   autoComplete="username"
+                  placeholder="Enter Username"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -115,7 +120,7 @@ export default function Example() {
                   htmlFor="password"
                   className="block text-sm font-medium leading-6 text-gray-900"
                 >
-                  Password*
+                  Password
                 </label>
               </div>
               <div className="mt-2">
@@ -125,6 +130,7 @@ export default function Example() {
                   type="password"
                   required
                   autoComplete="current-password"
+                  placeholder="••••••••"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -136,7 +142,7 @@ export default function Example() {
                   htmlFor="password"
                   className="block text-sm font-medium leading-6 text-gray-900"
                 >
-                  Comfirm Password*
+                  Comfirm Password
                 </label>
               </div>
               <div className="mt-2">
@@ -146,6 +152,7 @@ export default function Example() {
                   type="password"
                   required
                   autoComplete="current-password"
+                  placeholder="••••••••"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -153,7 +160,7 @@ export default function Example() {
 
             <div>
               <Link
-                to="/login"
+                to="/"
                 type="submit"
                 className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >

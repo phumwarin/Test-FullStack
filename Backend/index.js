@@ -1,15 +1,17 @@
 const express = require('express');
-// const cors = require('cors');
-const Quote = require('inspirational-quotes');
+const cors = require('cors');
+const mysql = require('mysql');
 
 const app = express();
+app.use(cors());
 
-// app.use(cors());
-
-app.get('/' ,(req ,res) => {
-    res.send(Quote.getQuote());
-})
-
-app.listen(5000 ,() => {
-    console.log("listening....");
+const db = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 
 });
+
+app.listen(3000, () => {
+    console.log("Listening on port 3000");
+})

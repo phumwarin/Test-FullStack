@@ -8,6 +8,12 @@ export default function Example() {
   //   return Register;
   // }
 
+  // const [email , setEmail] = useState('');
+  // const [password , setPassword] = useState(''); 
+  // function handleSubmit(event) {
+  //   event.preventDefault();
+  // }
+
     return (
       <>
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
@@ -35,9 +41,13 @@ export default function Example() {
                     type="username"
                     required
                     autoComplete="username"
+                    placeholder="username"
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     // onChange={e => setEmail(e.target.value)}
                   />
+
+                  
+
                 </div>
               </div>
   
@@ -47,9 +57,9 @@ export default function Example() {
                     Password
                   </label>
                   <div className="text-sm">
-                    <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
+                    <Link to="/newpassword" className="font-semibold text-indigo-600 hover:text-indigo-500">
                       Forgot password?
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mt-2">
@@ -59,6 +69,7 @@ export default function Example() {
                     type="password"
                     required
                     autoComplete="current-password"
+                    placeholder="••••••••"
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     // onChange={e => setPassword(e.target.value)}
                   />
